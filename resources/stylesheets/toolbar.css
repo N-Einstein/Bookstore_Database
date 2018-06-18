@@ -1,0 +1,52 @@
+#header-box {
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 5 5 5 5;
+    -fx-border-color:#4abc96;
+    -fx-background-color: #FBFCFF;
+}
+
+#search-btn {
+	-fx-min-height: 30px;
+    -fx-min-width: 30px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 25;
+	-fx-background-image: url('file:resources/images/buttons/icons8-search-48.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;	
+}
+
+#cart-btn {
+	-fx-min-height: 30px;
+    -fx-min-width: 30px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 25;
+	-fx-background-image: url('file:resources/images/buttons/icons8-shopping-cart-48.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;	
+}
+
+
+#back-btn {
+	-fx-min-height: 30px;
+    -fx-min-width: 30px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 25;
+	-fx-background-image: url('file:resources/images/buttons/icons8-go-back-64.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;	
+}
+
+.context-menu{
+	-fx-background-color: #E4DFDA; 
+	-fx-text-fill: #757575; 
+	-fx-my-menu-color: #E4DFDA;
+}
+
+.menu-bar {
+    -fx-background-color: transparent;
+}
+

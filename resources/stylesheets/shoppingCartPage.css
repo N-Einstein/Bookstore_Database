@@ -1,0 +1,139 @@
+
+#back-button{
+	-fx-min-height: 30px;
+    -fx-min-width: 30px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 25;
+	-fx-background-image: url('file:resources/images/buttons/icons8-go-back-64.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;
+}
+
+
+.delete-btn {
+	-fx-min-height: 20px;
+    -fx-min-width: 20px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 20;
+	-fx-background-image: url('file:resources/images/buttons/icons8-cancel-40.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;
+
+}
+
+.plus{
+	-fx-min-height: 20px;
+    -fx-min-width: 20px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 20;
+	-fx-background-image: url('file:resources/images/buttons/icons8-plus-16.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;	
+}
+
+.minus{
+		-fx-min-height: 20px;
+    -fx-min-width: 20px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 20;
+	-fx-background-image: url('file:resources/images/buttons/icons8-minus-40.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;	
+}
+
+#titleBar{
+    -fx-spacing: 20;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-alignment: center;
+    -fx-padding: 5 5 5 5;
+    -fx-border-color:#4abc96;
+    -fx-background-color: #FBFCFF;
+}
+
+
+
+.list:filled:selected:focused,
+.list-cell:filled:selected{
+	-fx-background-color: #fffdfc;
+}
+
+.list:filled:selected:focused Label,
+.list-cell:filled:selected Label {
+		-fx-text-fill: black;
+}
+
+.row {
+	-fx-padding: 15;
+}
+
+.hbox {
+	/*-fx-background-color: #801611;*/
+	-fx-padding: 15;
+    -fx-spacing: 15;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 0 0;
+}
+
+.vbox {
+	-fx-padding: 0, 15, 15, 15;
+    -fx-spacing: 8;
+
+}
+
+#totalPrice {
+	
+}
+
+#book-cover-image {
+	-fx-border-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 1;	
+}
+#book-cover-image:hover{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+}
+
+#title{
+	-fx-font-size: 15;
+	-fx-text-fill: #000000;
+}
+
+#title:hover {
+	-fx-text-fill: #838384;
+	
+	/*-fx-background-color: #838384;*/
+}
+
+.quantity{
+	-fx-text-fill: #4281A4;
+	-fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-focus-color: transparent;
+    -fx-opacity:1;
+    -fx-padding: 1 3 1 3;
+	-fx-font-size: 15;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold; 
+}
+
+.pay-btn{
+		-fx-background-color: #4abc96; 
+	-fx-text-fill: #FFFFFF; 
+	-fx-padding: 8 50 8 50 ;
+	-fx-font-weight: bold;
+	-fx-font-size: 15;
+	
+}
+
+.price-panel{
+	-fx-font-weight: bold;
+	-fx-font-size: 15;
+	-fx-text-fill: #727272; 
+}

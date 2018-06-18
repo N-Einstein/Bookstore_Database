@@ -1,0 +1,125 @@
+#back-button{
+	-fx-min-height: 30px;
+    -fx-min-width: 30px;
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 25;
+	-fx-background-image: url('file:resources/images/buttons/icons8-go-back-64.png');
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;
+}
+
+#titleBar{
+    -fx-spacing: 20;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-alignment: center;
+    -fx-padding: 5 5 5 5;
+    -fx-border-color:#4abc96;
+    -fx-background-color: #FBFCFF;
+}
+
+.details-hbox{
+	-fx-padding: 0 15 15 5;
+    -fx-spacing: 1;
+}
+
+.label {
+	-fx-text-fill: #666666;
+	-fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-focus-color: transparent;
+    -fx-opacity:1;
+    -fx-padding: 1 3 1 3;
+	-fx-font-size: 15;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold; 
+}
+
+.value {
+	-fx-text-fill: #4281A4;
+/* 	-fx-background-color: transparent;*/
+    -fx-background-insets: 0;
+    -fx-focus-color: transparent;
+    -fx-opacity:1;
+    -fx-padding: 1 3 1 3;
+	-fx-font-size: 15;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold; 
+}
+
+Label {
+	-fx-font-size: 15;
+}
+
+
+#otherVBox{
+	
+	-fx-padding: 30;
+	-fx-spacing: 0;
+}
+
+#otherVBox Label TextField{
+-fx-font-size: 15;	
+}
+
+#cart-button {
+	-fx-background-color: #4abc96; 
+	-fx-text-fill: #FFFFFF; 
+}
+
+
+.book-title Label{
+	-fx-font-size: 35;
+	-fx-text-fill: #757575;
+	-fx-text-alignment: center;
+	
+}
+.book-title TextField{
+	-fx-font-size: 35;
+	-fx-text-fill: #757575;
+	-fx-text-alignment: center;
+}
+
+#title-hbox{
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 0 0;
+    -fx-margin: 5 5 5 5;
+    /*-fx-border-color:#4abc96;*/
+}
+
+#title-hbox Label{
+	-fx-text-fill: #757575;
+}
+
+#im {
+-fx-padding: 15;	
+}
+
+#main-parts {
+-fx-margin: 5 5 5 5;	
+-fx-padding: 15 15 15 5;	
+}
+
+#detailsBox {
+	-fx-padding: 10;
+}
+
+.msg{
+	-fx-text-fill: green;
+}
+
+#edit-error-msg {
+	-fx-text-fill: red;
+}
+
+#edit-btn {
+	-fx-background-color: #E0E0E0; 
+	-fx-text-fill: #757575; 
+}
+
+#order-btn {
+	-fx-background-color: #4abc96; 
+	-fx-text-fill: #FFFFFF; 
+}
+

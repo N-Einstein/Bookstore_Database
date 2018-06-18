@@ -1,0 +1,77 @@
+.hbox {
+	/*-fx-background-color: #801611;*/
+	-fx-padding: 15;
+    -fx-spacing: 20;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 0 0;
+}
+
+.vbox {
+	-fx-padding: 0, 15, 15, 15;
+    -fx-spacing: 8;
+
+}
+
+#title{
+	-fx-font-size: 18;
+	-fx-text-fill: #757575;
+	-fx-font-weight: bold; 
+}
+
+#title:hover {
+	-fx-text-fill: #B3B3B3;
+	
+	/*-fx-background-color: #838384;*/
+}
+
+#price{
+	-fx-font-size: 15;
+	-fx-text-fill: #4281A4;
+	
+}
+
+.cart-button{
+
+	-fx-min-height: 25px;
+    -fx-min-width: 25px;
+	-fx-background-image: url('file:resources/images/buttons/icons8-plus-64.png');
+	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+  	-fx-background-size: 25;
+  	-fx-background-color: transparent;
+}
+
+.cart-button:hover {
+	-fx-background-color: #e3e3e5;
+	-fx-border-style: solid inside;
+    -fx-border-width: 0.1;
+}
+
+.cart-button:focused {
+	-fx-background-color: #d1d1d1;
+}
+
+/* 
+.list,
+.list:filled:selected:focused,
+.list-cell:filled:selected,
+.list-cell:even,
+.list-cell:odd {
+	-fx-background-color: transparent;
+}*/
+
+#book-cover-image {
+	-fx-border-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 1;	
+}
+#book-cover-image:hover{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+}
+
+
+.cart-section Label{
+	-fx-text-fill: green;
+}

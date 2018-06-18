@@ -1,0 +1,24 @@
+.container{
+}
+
+.v1{
+	-fx-spacing:15;
+}
+
+.v1 Label{
+	-fx-font-size: 15;
+}
+.v2 Label{
+	-fx-font-size: 15;
+}
+
+.v2{
+	-fx-spacing:12;
+}
+
+.msg-error{
+	-fx-text-fill: red;
+}
+.msg-confirm{
+	-fx-text-fill: green;
+}

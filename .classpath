@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="resources/jars/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="resources/jars/commons-collections-3.2.1-1.0.0.jar"/>
+	<classpathentry kind="lib" path="resources/jars/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="resources/jars/commons-logging-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="resources/jars/groovy-all-2.2.1.jar"/>
+	<classpathentry kind="lib" path="resources/jars/iText-2.1.7.jar"/>
+	<classpathentry kind="lib" path="resources/jars/itext-pdfa-5.5.0.jar"/>
+	<classpathentry kind="lib" path="resources/jars/itextpdf-5.5.0.jar"/>
+	<classpathentry kind="lib" path="resources/jars/jasper-compiler-jdt.jar"/>
+	<classpathentry kind="lib" path="resources/jars/jasperreports-6.6.0.jar"/>
+	<classpathentry kind="lib" path="resources/jars/jasperreports-fonts-6.6.0.jar"/>
+	<classpathentry kind="lib" path="resources/jars/jasperreports-javaflow-6.6.0.jar"/>
+	<classpathentry kind="lib" path="resources/jars/mysql-connector-java-5.1.25-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
